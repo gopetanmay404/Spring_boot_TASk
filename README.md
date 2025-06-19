@@ -23,7 +23,7 @@ This is a simple Task Manager built using Spring Boot, Spring Data JPA, and MySQ
 - Lombok
 
  📁 Project Structure
-
+'''
 src
 ├── main
 │ ├── java
