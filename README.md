@@ -53,7 +53,7 @@ src
 
  🗃️ Sample JSON for POST Request
 
-```json
+json
 {
   "title": "Finish Spring Boot project",
   "completed": false
