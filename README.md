@@ -1,15 +1,8 @@
-Great! Here's a clean and professional `README.md` file for your Spring Boot Task Manager project:
-
----
-
-```markdown
-# 📝 Spring Boot Task Manager
 
 This is a simple Task Management CRUD (Create, Read, Update, Delete) application built using **Spring Boot**, **Spring Data JPA**, and **MySQL**. It supports basic API endpoints to manage tasks.
 
----
 
-## 🚀 Features
+ Features
 
 - Add new tasks ✅
 - Fetch all tasks or a specific task by ID 🔍
@@ -19,7 +12,7 @@ This is a simple Task Management CRUD (Create, Read, Update, Delete) application
 
 ---
 
-## 🧰 Tech Stack
+ Tech Stack
 
 - Java 17+
 - Spring Boot 3.x
@@ -30,35 +23,16 @@ This is a simple Task Management CRUD (Create, Read, Update, Delete) application
 
 ---
 
-## 📦 Folder Structure
+ 🔧 Setup Instructions
 
-```
-
-crudoperation/
-├── src/
-│   ├── main/
-│   │   ├── java/com/basiccrud/crudoperation/
-│   │   │   ├── controller/TaskController.java
-│   │   │   ├── service/TaskService.java
-│   │   │   ├── entity/Task.java
-│   │   │   └── repository/TaskRepository.java
-│   │   └── resources/application.properties
-├── pom.xml
-
-````
-
----
-
-## 🔧 Setup Instructions
-
-1. **Clone the repository**
+1. Clone the repository
 
 ```bash
 git clone https://github.com/gopetanmay404/Spring_boot_TASk.git
 cd Spring_boot_TASk
 ````
 
-2. **Configure database** in `src/main/resources/application.properties`
+2. *Configure database in `src/main/resources/application.properties`
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/your_db_name
@@ -67,7 +41,7 @@ spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-3. **Run the project**
+3. Run the project
 
 ```bash
 ./mvnw spring-boot:run
