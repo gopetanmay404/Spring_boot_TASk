@@ -78,13 +78,6 @@ spring.jpa.hibernate.ddl-auto=update
 **Tanmay Gope**
 GitHub: [@gopetanmay404](https://github.com/gopetanmay404)
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-```
 
 ---
 
